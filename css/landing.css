@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+html {
+    background: url(../images/plano\ de\ fundo.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+
+
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Alinhamento à direita */
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+   padding: 4.1%;
+ 
+}
+
+.intro {
+    font-size: 250%;
+    color: #ffffff;
+ 
+   
+}
+
+.my-form {
+    padding-left: 30%;
+    border-radius: 18px;
+    max-width: 30%;
+    min-width: 30%;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.idade{
+    display: flex;
+    width: 100%;
+}
+
+#checkbox{
+    width: 5.5%;
+    min-width: 5.5%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    
+}
+
+button {
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #ff6969;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:not(:hover) {
+    background-color: #ff0000;
+    transition: background-color 0.2s ease-in-out;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px){
+    input{
+        width: 130%;
+    }
+
+    #checkbox {
+        width: calc(25% - 20px);
+    }
+}

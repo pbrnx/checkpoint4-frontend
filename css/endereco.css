@@ -1,0 +1,32 @@
+.endereco {
+    text-align: center;
+    justify-content: center;
+    padding: 1%;
+   
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+a:hover{
+    color: rgb(255, 191, 191);
+}
+
+iframe{
+    border-radius: 15px;
+    margin: 2%;
+    width: 50%;
+    
+}
+
+p {
+    font-size: 120%;
+}
+
+@media (max-width:768px){
+    iframe{
+        width: calc(85% - 20px);
+    }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Vinheria</title>
+    <link rel="stylesheet" type="text/css" href="../css/template.css">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <script src="../js/login.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>            
+            <ul class="desktop-menu">
+                <li class="logo"><img src="../images/logo.png" alt="logo" height="90px"></li>
+                <li><a href="../pages/main.html">Home</a></li>
+                <li><a href="../pages/catalogo.html">Catálogo</a></li>
+                <li><a href="../pages/contato.html">Contato</a></li>
+                <li><a href="../pages/endereco.html">Endereço</a></li>
+                <li><a href="../index.html">Cadastre-se</a></li>
+                <li><a href="../pages/login.html">Login</a></li>                
+            </ul>
+        </nav>
+    </header>
+    
+   <br> <h1>Login</h1> <br>
+    <form id="loginForm">
+        <label for="loginUsername">Usuário:</label>
+        <input type="text" id="loginUsername" name="username" required>
+        <br>
+    
+        <label for="loginPassword">Senha:</label>
+        <input type="password" id="loginPassword" name="password" required>
+        <br>
+    
+        <button type="button" id="loginButton">Entrar</button>
+    </form>
+</body>
+</html>
